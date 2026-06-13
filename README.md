@@ -1,11 +1,11 @@
-# 🖥️ C-27 Incident Control System
+#  C-27 Incident Control System
 **Sistema de Control de Incidentes Técnicos — Salón C-27 | Fundación Kinal**
 
 Proyecto de TypeScript estructurado en módulos. Fase 1: Terminal (sin frontend).
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 c27-incidents/
@@ -21,7 +21,7 @@ c27-incidents/
 └── dist/               → Compilado TypeScript (auto-generado)
 ```
 
-## 🚀 Comandos
+## Comandos
 
 ```bash
 npm install              # Instalar dependencias
@@ -32,7 +32,7 @@ npx ts-node src/index.ts report monthly   # Reporte mensual
 npx ts-node src/index.ts validar          # Validaciones Actividad 1
 ```
 
-## 🌿 Ramas Git
+## Ramas Git
 
 | Rama | Propósito |
 |------|-----------|
@@ -40,7 +40,7 @@ npx ts-node src/index.ts validar          # Validaciones Actividad 1
 | `develop` | Integración de features |
 | `jjax-2025549` | Desarrollo personal del estudiante |
 
-## 📋 Actividad 1 — Modelos implementados
+## Actividad 1 — Modelos implementados
 
 - **Cliente**: enum `TipoCliente` (Regular/Corporativo/VIP), `EstadoCliente`
 - **Producto**: enum `CategoriaProducto`, `EstadoProducto`
