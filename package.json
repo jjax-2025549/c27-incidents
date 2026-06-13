@@ -1,0 +1,22 @@
+{
+  "name": "c27-incident-control",
+  "version": "1.0.0",
+  "description": "Sistema de Control de Incidentes Tecnicos - Salon C-27",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "dashboard": "ts-node src/index.ts dashboard",
+    "report:daily": "ts-node src/index.ts report daily",
+    "report:monthly": "ts-node src/index.ts report monthly"
+  },
+  "keywords": ["incidentes", "c27", "laboratorio", "typescript"],
+  "author": "jjax-2025549",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  }
+}
